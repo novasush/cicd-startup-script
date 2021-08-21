@@ -14,7 +14,7 @@ apt-get update
 apt-get install -y docker-ce docker-ce-cli containerd.io
 curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
-apt install ruby-full
+apt install ruby-full -y
 apt install wget
 cd /home/ubuntu
 wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
